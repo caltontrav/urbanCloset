@@ -1,0 +1,112 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 5%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.logo img{
+    width: 65%;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav_links li a:hover{
+    color: #FFA500;
+}
+.cart{
+    padding: 9px 25px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: #FFA500;
+    color: #000 ;
+
+}
+header .iconCart{
+    position: relative;
+    z-index: 1;
+}
+header .totalQuantity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: large;
+    background-color: #FFA500;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20px);
+}
+.fas{
+    font-size: 23px;
+}
+.toggle-btn{
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+}
+/*----------------dropdown-----------------*/
+.dropdown-menu{
+    /*hidden dropdown menu*/
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 80px;
+    width: 200px;
+    background: rgba(15, 15, 15, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-menu li a{
+    text-decoration: none;
+    line-height: 2rem;
+    color: black;
+}
+.dropdown-menu li:hover{
+    background-color: #FFA500;
+}
+.dropdown-menu li a:hover{
+    color: #fff;
+}
+/*  responsive design*/
+@media only screen and (max-width: 733px) {
+    .nav_links{
+        display: none;
+    }
+    .toggle-btn{
+       display: block;
+   }
+   
+   
+} 

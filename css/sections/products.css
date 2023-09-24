@@ -1,0 +1,66 @@
+.fea-prdcts{
+    font-family: 'Urbanist', sans-serif;
+    
+  }
+  .fea-prdcts h2{
+      text-align: center;
+  }
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      width: 25%;
+      font-family: 'Urbanist', sans-serif;
+      margin: 20px;
+      overflow: auto;
+      border-radius: 10px;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .card:hover{
+      box-shadow: 4px 4px 5px 4px #bbb;
+    }
+    .card h1{
+      font-size: 18px;
+      color: #FFA500;
+    }
+    .price {
+      color: grey;
+      font-size: 16px;
+    }
+    
+    #cartbtn {
+      color: white;
+      background-color: #FFA500;
+     border: none;
+      cursor: pointer;
+      border-radius: 50%;
+      font-size: 10px;
+      width: 50px;
+      height: 50px;
+     
+    }
+    
+    #cartbtn:hover {
+      background-color: white;
+      border: 1px solid #FFA500;
+      color: #FFA500;
+    
+    }
+    .detls{
+      display: flex;
+      justify-content: space-around;
+     
+      margin: 0 5px;
+    }
+  
+    .prdcts-list{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+      margin-top: 50px;
+      margin: 40px;
+      gap: 2rem;
+     
+    }
+   

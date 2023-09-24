@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@700&family=Indie+Flower&family=Playfair+Display+SC:wght@700&family=Poiret+One&family=Quicksand:wght@300&family=Raleway:wght@200&family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>UrbanCloset</title>
+  </head>
+  <body>
+    <!------------------------------------------header-->
+    <header>
+      <div class="navbar">
+
+        <div class="logo">
+          <img src="assets/UClogo.png" alt="UClogo">
+        </div>
+
+        <div class="nav_links">
+          <ul>
+            <li><a href="#products">products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="iconCart" id="iconCart">
+          <a href="#" class="cart" ><i class="fas fa-shopping-bag"></i></a>
+          <div class="totalQuantity" id="totalQuantity">0</div>
+        </div>
+
+        <div class="toggle-btn">
+          <i class="fal fa-bars"></i>
+        </div>
+
+        <div class="dropdown-menu"  >
+            <li><a href="#products">products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div> 
+
+
+      </div>
+    </header>
+    <!------------------------------------------End of header-->
+
+    <!--------------------------------------hero section ------------------>
+    <section>
+      <div class="hero">
+        <div class="rows" id="row1">
+          <h1> <strong>URBAN</strong> CLOSET <br> Clothes at an affordable price. <br> Check out our collection.</h1>
+          <button class="btn">SHOP</button>
+        </div>
+        <div class="rows" id="row2">
+        <!------- <img src="assets/wallpp .jpg" alt="" height="250px">--->
+          
+        </div>
+        
+      </div>
+    </section>
+    <!---------------------------------------end of hero------------------------->
+   <!------------------------------------------mid sec--------------->
+   <section class="sec2">
+    <div class="m-div">
+      <div class="clms">
+        <span class="dot"><i class='fas fa-clock'></i></span>
+        <div class="desc">
+          <h4>QUALITY DELIVERY</h4>
+          <p>Quality clothes at your disposal.</p>
+        </div>
+        
+      </div>
+
+      <div class="clms">
+        <span class="dot"><i class="fas fa-truck"></i></span>
+        <div class="desc">
+          <h4>Quick delivery</h4>
+          <p>Delivery to your door step.</p>
+        </div>
+      </div>
+
+      <div class="clms">
+        <span class="dot"><i class="fas fa-user-headset"></i></span>
+        <div class="desc">
+          <h4>24/7 SUPPORT</h4>
+          <p>Get intouch with us.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------------------end----------------------->
+
+  <!-------------------------------main ----------------------->
+  <main id="products">
+    <div class="prdts-sec" >
+      <div class="fea-prdcts">
+        <h2>FEATURED PRODUCTS</h2>
+
+        <div class="prdcts-list" id="prdcts-list">
+
+            <div id=product-id-${id}  class="card">
+              <img src="assets/red_floral-removebg-preview.png" alt="Red Floral Jacket" style="width:100%">
+              <h1>Red Floral Jacket</h1>
+              <h1 id= "inStock">Instock: 1</h1>
+              <div class="detls">
+                <p class="price">Ksh 350</p>
+                <button id="cartbtn" type="button" onClick="addToCart()" ><i class="fas fa-cart-arrow-down"></i></button>
+              </div>
+            </div>
+
+            <div id=product-id-${id}  class="card">
+              <img src="assets/white_cotton-removebg-preview.png" alt="White Cotton Jacket" style="width:100%">
+              <h1>Red Floral Jacket</h1>
+              <h1 id= "inStock">Instock: 1</h1>
+              <div class="detls">
+                <p class="price">Ksh 350</p>
+                <button id="cartbtn" type="button" onClick="addToCart()" ><i class="fas fa-cart-arrow-down"></i></button>
+              </div>
+            </div>
+
+            <div id=product-id-${id}  class="card">
+              <img src="assets/red_floral-removebg-preview.png" alt="Red Floral Jacket" style="width:100%">
+              <h1>Red Floral Jacket</h1>
+              <h1 id= "inStock">Instock: 1</h1>
+              <div class="detls">
+                <p class="price">Ksh 350</p>
+                <button id="cartbtn" type="button" onClick="addToCart()" ><i class="fas fa-cart-arrow-down"></i></button>
+              </div>
+            </div>
+
+            <div id=product-id-${id}  class="card">
+              <img src="assets/white_cotton-removebg-preview.png" alt="White Cotton Jacket" style="width:100%">
+              <h1>Red Floral Jacket</h1>
+              <h1 id= "inStock">Instock: 1</h1>
+              <div class="detls">
+                <p class="price">Ksh 350</p>
+                <button id="cartbtn" type="button" onClick="addToCart()" ><i class="fas fa-cart-arrow-down"></i></button>
+              </div>
+            </div>
+
+            <div id=product-id-${id}  class="card">
+              <img src="assets/white_cotton-removebg-preview.png" alt="White Cotton Jacket" style="width:100%">
+              <h1>Red Floral Jacket</h1>
+              <h1 id= "inStock">Instock: 1</h1>
+              <div class="detls">
+                <p class="price">Ksh 350</p>
+                <button id="cartbtn" type="button" onClick="addToCart()" ><i class="fas fa-cart-arrow-down"></i></button>
+              </div>
+            </div>
+
+            <div id=product-id-${id}  class="card">
+              <img src="assets/red_floral-removebg-preview.png" alt="Red Floral Jacket" style="width:100%">
+              <h1>Red Floral Jacket</h1>
+              <h1 id= "inStock">Instock: 1</h1>
+              <div class="detls">
+                <p class="price">Ksh 350</p>
+                <button id="cartbtn" type="button" onClick="addToCart()" ><i class="fas fa-cart-arrow-down"></i></button>
+              </div>
+            </div>
+
+            
+
+            
+
+
+
+
+
+          
+
+          
+
+          
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </main>
+
+
+
+     
+
+
+    
+     <script type="text/javascript" src="src/script.js"></script>
+  </body>
+</html>
