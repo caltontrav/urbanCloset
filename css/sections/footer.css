@@ -1,0 +1,61 @@
+footer{
+    font-family: 'Urbanist', sans-serif;
+}
+.fcards{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36, 34, 34);
+    color: #fff;
+   
+}
+.fc1{
+    line-height: 2rem;
+    margin: 10px 10px;
+}
+.socials ul {
+    display: flex;
+}
+.socials ul,li{
+    list-style-type: none;
+
+}
+.socials ul,li,a{
+    color: #fff;
+    margin: 5px;
+}
+.fc1 img{
+    width: 70%;
+}
+.fc2{
+    line-height: 2rem;
+    margin: 10px 10px;
+    text-align: center;
+}
+.quicklinks li:hover{
+    background-color: #FFA500;
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+}
+.fc3{
+    line-height: 3rem;
+    margin: 10px 10px;
+}
+.form input{
+    border-radius: 50px;
+    padding: 5px 55px;
+    border: none;
+    outline: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footercontainer{
+    background-color: rgb(15, 15, 15);
+}
+#copyright{
+    color: #fff;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    padding: 10px 10px;
+}

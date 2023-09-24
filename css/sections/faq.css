@@ -1,0 +1,33 @@
+.collapsible {
+    background-color: #FFA500;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Urbanist', sans-serif;
+    margin: 2px;
+}
+  
+  .active, .collapsible:hover {
+    background-color: #f3ad2a;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .faqcontainer{
+    font-family: 'Urbanist', sans-serif;
+    margin: 80px 20px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px 0px #bbb;
+    padding: 20px;
+  }
+ 
