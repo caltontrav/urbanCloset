@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@700&family=Indie+Flower&family=Playfair+Display+SC:wght@700&family=Poiret+One&family=Quicksand:wght@300&family=Raleway:wght@200&family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>UrbanCloset</title>
+</head>
+<body>
+
+     <!------------------------------------------header-->
+    <header>
+        <div class="navbar">
+  
+          <div class="logo">
+            <img src="assets/UClogo.png" alt="UClogo">
+          </div>
+  
+          <div class="nav_links">
+            <ul>
+              <li><a href="index.html">Continue shopping</a></li>
+            </ul>
+          </div>
+  
+          <div class="iconCart" id="iconCart">
+            <a href="cart.html" class="cart" ><i class="fas fa-shopping-bag"></i></a>
+            <div class="totalQuantity" id="totalQuantity">0</div>
+          </div>
+  
+          <div class="toggle-btn">
+            <i class="fal fa-bars"></i>
+          </div>
+  
+          <div class="dropdown-menu"  >
+              <li><a href="#products">products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </div> 
+  
+  
+        </div>
+      </header>
+      <!------------------------------------------End of header-->
+
+
+
+
+    <div class="cart-container">
+        <div class="cart-sec">
+
+            <div class="products-cart">
+                <div id="cartLabel">
+                    <h2>list of products</h2>
+                </div>
+                
+                <div class="cart-list" id="cart-list" >
+                    <div class="product-list" id="product-list">
+                            <img src="assets/red_floral-removebg-preview.png" alt="">
+                            <p class="pname">Red floral</p>
+                            <p class="quantity">1</p>
+                            <p class="productPrice">Ksh 350</p>
+                            <div class="deleteBtn"><a href=""><i class="fas fa-trash-alt" id="deleteBtn" ></i></a></div>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+
+            <div class="checkout-sec">
+                <h2>CHECKOUT</h2>
+                <div class="checkout-form">
+                    <form action="">
+
+                        <div class="fname">
+                            <label for="">Full Name *</label><br>
+                            <input type="text"  placeholder="name ">
+                        </div>
+
+                        <div class="number">
+                            <label for="">Phone Number *</label><br>
+                            <input type="text" placeholder="07********">
+                        </div>
+
+                        
+
+                        <div class="checkout-quantity">
+                            <h5>Total Quantity</h5>
+                            <p>0</p>
+                        </div>
+
+                        <div class="checkout-price">
+                            <h5>Total Price</h5>
+                            <p>Ksh 0</p>
+                        </div>
+
+                        <button type="button" class="checkout-btn">CHECKOUT</button>
+                        
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script type="text/javascript" src="src/script.js"></script>
+   
+</body>
+</html>

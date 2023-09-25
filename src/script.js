@@ -14,3 +14,16 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+/*---------------toggle for product product diplay page-----*/
+let mainImage = document.getElementById("main-image")
+let smallImage = document.getElementsByClassName("small-image")
+
+smallImage[0].onclick = ()=>{
+  mainImage.src = smallImage[0].src
+}
+
+smallImage[1].onclick = ()=>{
+  mainImage.src = smallImage[1].src
+}
+
